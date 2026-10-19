@@ -1,0 +1,6 @@
+{
+  "name": "Arcana | Анастасия",
+  "description": "Таро-гороскоп. Ответы на волнующие вопросы, расклады и прогнозы.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

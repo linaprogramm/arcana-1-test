@@ -1,0 +1,57 @@
+import { WheelPrize } from '../types';
+
+export const WHEEL_PRIZES: WheelPrize[] = [
+  {
+    id: 'discount-10',
+    label: 'Скидка 10%',
+    sublabel: 'Максимум %',
+    promoCode: 'ARCANA10',
+    discountPercent: 10,
+    description: 'Скидка 10% на любой расклад или прогноз',
+    accentColor: '#F5EBE1',
+  },
+  {
+    id: 'bonus-question',
+    label: '+1 вопрос в подарок',
+    sublabel: 'Бонус к раскладу',
+    promoCode: 'FREEQ_BONUS',
+    isBonusQuestion: true,
+    description: 'Бесплатный дополнительный вопрос к любому оформляемому раскладу',
+    accentColor: '#D8C7B5',
+  },
+  {
+    id: 'discount-200',
+    label: 'Скидка 200 ₽',
+    sublabel: 'Максимум в ₽',
+    promoCode: 'LUCKY200',
+    discountRub: 200,
+    description: 'Скидка 200 ₽ при заказе любого расклада',
+    accentColor: '#F5EBE1',
+  },
+  {
+    id: 'discount-100',
+    label: 'Скидка 100 ₽',
+    sublabel: 'Приятный бонус',
+    promoCode: 'STAR100',
+    discountRub: 100,
+    description: 'Скидка 100 ₽ на любую консультацию',
+    accentColor: '#D8C7B5',
+  },
+  {
+    id: 'discount-5',
+    label: 'Скидка 5%',
+    sublabel: 'На любой заказ',
+    promoCode: 'BONUS5',
+    discountPercent: 5,
+    description: 'Скидка 5% на выбранную услугу',
+    accentColor: '#F5EBE1',
+  },
+  {
+    id: 'extra-advice',
+    label: 'Карта-совет',
+    sublabel: 'Бонус к заказу',
+    promoCode: 'ADVICE_CARD',
+    description: 'Дополнительная уточняющая карта и совет к вашему заказу',
+    accentColor: '#D8C7B5',
+  },
+];
